@@ -52,7 +52,7 @@ html {
 }
 
 #narwhal-eye {
-  opacity: 0%;
+  opacity: 0;
   animation: appear .5s .5s linear forwards;
 }
 
@@ -60,7 +60,7 @@ h1 {
   position: absolute;
   top: 2em;
   left: 1em;
-  opacity: 0%;
+  opacity: 0;
   animation: appear .5s .5s linear forwards;
   z-index: 1000;
 }
@@ -70,13 +70,17 @@ h1 {
 }
 
 @keyframes offset {
+
   to {
     stroke-dashoffset: 0;
   }
+
 }
 
 @keyframes appear {
+
   to {
-    opacity: 100%;
+    opacity: 100;
   }
+
 }
